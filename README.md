@@ -12,3 +12,4 @@ I membri del gruppo (in ordine alfabetico):
 ---
 ## Documentazione
 Abbiamo realizzato un poster in formato A3 che riassume ciò che abbiamo analizzato nel nostro progetto:
+* [**Scarica il Poster del Progetto (PDF)**](./docs/Poster_progetto.pdf)
