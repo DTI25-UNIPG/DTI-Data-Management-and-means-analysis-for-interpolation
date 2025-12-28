@@ -10,3 +10,6 @@
 | Claudia Puliga | *In arrivo* |
 | Benedetta Zibetti | [@benedettazibetti](https://github.com/benedettazibetti) |
 
+---
+## Documentazione
+Abbiamo realizzato un poster in formato A3 che riassume ciò che abbiamo analizzato nel nostro progetto:
