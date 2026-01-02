@@ -34,6 +34,8 @@ Esso contiene un 4-tensore denominato *arr* di dimensioni (6, 128, 128, 45) con 
 - Indice 2-3 ($i, j$): Dimensioni spaziali della fetta ($128 \times 128$ pixel).
 - Indice 4 ($k$): Indice della fetta, cioè la profondità ($45$).
 
+---
+
 #### visualizza1
 
 La prima funzione, *visualizza1*, permette di visualizzare l'immagine lungo l'asse orizzontale:
@@ -58,6 +60,8 @@ load data %Mi restituisce un array con TUTTI i 3-tensori misurati (è un 4-tenso
 ```
 La funzione riceve in input l'indice $k$ della fetta desiderata. Per tale fetta, estrae le matrici relative alle 6 direzioni e le mostra in un'unica figura composta da 6 subplot ($2 \times 3$).
 
+---
+
 #### visualizza2.m
 
 La seconda funzione, *visualizza2*, permette di visualizzare l'immagine lungo l'asse coronale(verticale):
@@ -80,6 +84,8 @@ function D=visualizza2(j)
   end
 ```
 La funzione riceve in input l'indice $j$ della fetta desiderata. Per tale fetta, estrae le matrici relative alle 6 direzioni e mostra le rappresentazioni una per volta. Utilizzo l'indice *46-k* e non *k* per ottenere l'immagine nel verso "standard".
+
+---
 
 #### visualizza3.m
 
@@ -107,3 +113,5 @@ La funzione riceve in input l'indice $i$ della fetta desiderata. Per tale fetta,
 In ogni funzione calcolo quanti sono i valori negativi nella matrice, che nel DTI possono simboleggiare rumore o interferenze nel segnale. Inoltre, lavorando direttamente sul dato, studiando quando i valori della matrice sono non negativi, posso ipotizzare l'ordine delle direzioni nel vettore h. 
 
 **Osservazione**: Il codice può essere ottimizzato utilizzando, al posto dei cicli *for*, la funzione *squeeze* che permette di ottenere direttamente una matrice dal tensore.
+
+---
