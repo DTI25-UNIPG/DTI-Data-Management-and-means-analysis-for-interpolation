@@ -110,8 +110,12 @@ function D=visualizza3(i)
 ```
 La funzione riceve in input l'indice $i$ della fetta desiderata. Per tale fetta, estrae le matrici relative alle 6 direzioni e mostra le rappresentazioni una per volta. Utilizzo l'indice *46-k* e non *k* per ottenere l'immagine nel verso "standard".
 
+---
+
 In ogni funzione calcolo quanti sono i valori negativi nella matrice, che nel DTI possono simboleggiare rumore o interferenze nel segnale. Inoltre, lavorando direttamente sul dato, studiando quando i valori della matrice sono non negativi, posso ipotizzare l'ordine delle direzioni nel vettore h. 
 
 **Osservazione**: Il codice può essere ottimizzato utilizzando, al posto dei cicli *for*, la funzione *squeeze* che permette di ottenere direttamente una matrice dal tensore.
 
 ---
+
+### 2. Funzioni di interpolazione
